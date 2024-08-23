@@ -6,7 +6,14 @@ import TodoList from "../TodoList";
 
 const Profile: React.FC = () => {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+    <Box
+      sx={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        gap: "20px",
+      }}
+    >
       <StudentBadge />
       <Calender />
       <TodoList />
