@@ -20,7 +20,7 @@ const StudentBadge: React.FC = () => {
           <img
             src={ProfilePicture}
             alt=""
-            className="absolute top-[9.7rem] bottom-[30rem] right-[5.7rem] rounded-[100%]"
+            className="absolute top-[9.7rem] bottom-[30rem] right-[5.9rem] rounded-[100%]"
           />
         </div>
         <Stack spacing={1}>

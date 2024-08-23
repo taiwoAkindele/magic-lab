@@ -54,11 +54,9 @@ const CourseContainer: React.FC<CourseContainerProps> = ({
           }}
         >
           <Box
-            padding="4px"
             borderRadius="8px"
             bgcolor="rgba(112, 45, 255, 0.2)"
             width={72}
-            height={15}
             display="flex"
             alignContent="center"
             justifyContent="center"
@@ -148,7 +146,7 @@ const CourseContainer: React.FC<CourseContainerProps> = ({
 
 export default CourseContainer;
 
-export const StyledFlexBox = styled(Box)(({ theme }) => ({
+export const StyledFlexBox = styled(Box)(() => ({
   display: "flex",
   alignItems: "center",
   gap: "8px",
