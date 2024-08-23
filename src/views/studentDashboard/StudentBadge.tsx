@@ -15,12 +15,12 @@ const StudentBadge: React.FC = () => {
       }}
     >
       <Box>
-        <div>
-          <ProfileContainer className="relative" />
+        <div className="relative">
+          <ProfileContainer />
           <img
             src={ProfilePicture}
             alt=""
-            className="absolute top-[9.7rem] bottom-[30rem] right-[5.9rem] rounded-[100%]"
+            className="absolute top-[1rem] bottom-[30rem] right-[2.8rem] rounded-[100%]"
           />
         </div>
         <Stack spacing={1}>
