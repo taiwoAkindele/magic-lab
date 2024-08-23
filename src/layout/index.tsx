@@ -16,7 +16,6 @@ const ContentLayout = () => {
           width: "calc(100vw - 280px)",
           marginLeft: "280px",
           marginTop: "45px",
-          padding: "0px 0px 0px 20px",
         }}
       >
         <Outlet />

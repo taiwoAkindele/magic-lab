@@ -23,7 +23,7 @@ const MyCourses: React.FC = () => {
         background: "#FAFBFC",
         height: "100%",
         width: "100%",
-        paddingLeft: "31px",
+        paddingLeft: "20px",
       }}
     >
       <Typography
