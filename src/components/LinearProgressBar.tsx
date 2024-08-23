@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
+const BorderLinearProgress = styled(LinearProgress)(() => ({
   height: "6px",
   borderRadius: "50px",
   [`&.${linearProgressClasses.colorPrimary}`]: {

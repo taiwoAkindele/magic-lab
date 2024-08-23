@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Navigate, Outlet, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import routes from "./routes";
 import { paths } from "./routes/path";
 import "./App.css";

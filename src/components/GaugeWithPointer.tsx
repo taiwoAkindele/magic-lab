@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import {
   GaugeContainer,
   GaugeValueArc,
@@ -7,7 +7,7 @@ import {
   gaugeClasses,
 } from "@mui/x-charts/Gauge";
 
-function GaugePointer() {
+const GaugePointer = () => {
   const { valueAngle, outerRadius, cx, cy } = useGaugeState();
 
   if (valueAngle === null) {
@@ -29,9 +29,9 @@ function GaugePointer() {
       />
     </g>
   );
-}
+};
 
-const GaugeWithPointer = () => {
+const GaugeWithPointer: React.FC = () => {
   return (
     <GaugeContainer
       width={130}

@@ -1,14 +1,10 @@
 import React from "react";
 
-const ArrowDown = ({
-  width = "12",
-  height = "7",
-  color = "#82888F",
-}: {
+const ArrowDown: React.FC<{
   width?: string | number;
   height?: string | number;
   color?: string;
-}) => {
+}> = ({ width = "12", height = "7", color = "#82888F" }) => {
   return (
     <svg
       width={width}

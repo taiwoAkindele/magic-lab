@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import { ReactComponent as WavingHand } from "../../assets/images/WavingHandSign.svg";
 
-const Greetings = () => {
+const Greetings: React.FC = () => {
   return (
     <Box>
       <Box
